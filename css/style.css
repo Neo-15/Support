@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url('../fonts/Roboto-Regular.eot');
+    src: local('Roboto Regular'), local('Roboto-Regular'),
+        url('../fonts/Roboto-Regular.eot') format('embedded-opentype'),
+        url('../fonts/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+
+html{
+    overflow-wrap: normal;
+    word-break: normal;
+}
+
+p{
+    color: blue;
+    font-family: "Roboto-Regular";
+    font-size: 14px;
+    font-weight: 600;
+}
+
+a .second{
+    color: brown;
+}
+
+input[type="tel"]{
+    color: aqua;
+}
+
